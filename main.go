@@ -16,5 +16,3 @@ func main() {
 	// func listen_and_serve, pass in address ex port 8080, and router (mux)
 	log.Fatal(http.ListenAndServe(":8080", mux))
 }
-
-// github.com/gorilla/mux
